@@ -48,7 +48,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <div>
-          <label>Input JSON</label>
+          <label>Input JSON: </label>
           <input placeholder='Input JSON' value={jsonInput} onChange={handleChangeJsonInput}></input>
         </div>
         <button onClick={callWeb3}>Sign</button>
