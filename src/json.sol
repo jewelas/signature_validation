@@ -21,8 +21,3 @@ contract SigTest {
         (purpose, amount) = abi.decode(hash, (string, uint));
     }
 }
-
-/*
-"for trails afterwards it would be a small code demo of a website where you input json into a textfield. encode it and let the user sign it. and a smart contract that has 1 function that accepts the message, checks for valid signer and extracts a string field and a uint256 field, so nothing to wild
-
- */
